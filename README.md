@@ -34,7 +34,6 @@ flowchart TD
     C --> D[Model Selection]
     D --> E[Model Training]
     E --> F[Model Evaluation]
-    F --> G[Model Persistence]
     G --> H[Prediction Interface]
 ```
 
@@ -53,7 +52,6 @@ Before setting up the project, ensure you have the following requirements satisf
 - matplotlib
 - seaborn
 - scikit-learn
-- joblib (for model persistence)
 - Jupyter Notebook (optional, for interactive analysis)
 
 Install all dependencies at once using:
