@@ -34,7 +34,7 @@ flowchart TD
     C --> D[Model Selection]
     D --> E[Model Training]
     E --> F[Model Evaluation]
-    G --> H[Prediction Interface]
+    F --> G[Prediction Interface]
 
 ```
 
